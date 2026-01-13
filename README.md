@@ -1,6 +1,6 @@
 # . ݁₊ ⊹ . bunnyrs (\\_/) ⟡ ݁ . ⊹ ₊ ݁.
 
-A Python Reverse shell tool.
+A Python reverse shell tool.
 
 ## Preview
 
