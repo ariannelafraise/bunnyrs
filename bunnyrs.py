@@ -255,7 +255,7 @@ class BunnyrsServer:
         Handle the Reverse Shell server mode:
             Reverse shell available to connected clients.
         """
-        client_socket.send(f"<# Remote shell as {self.running_from_user} #> ".encode())
+        client_socket.send(f"<# Reverse shell as {self.running_from_user} #> ".encode())
 
         while not self.shutdown_event.is_set():
             command = recv(client_socket, 64)
