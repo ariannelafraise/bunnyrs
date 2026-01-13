@@ -19,15 +19,13 @@ Can run in two modes: Client or Server
 
 ### Server mode
 
-To launch in server mode, use the `-s` flag.
+To launch in server mode, use the `-s` flag. You must specify:
 
-You must specify:
+- A server profile, which can be:
+  - Execute (`-e`) - on client connection: executes the specified command and sends the output.
+  - Reverse Shell (`-sh`) - reverse shell available to connected clients.
 
-A server profile which can be:
-- Execute (`-e`) - on client connection: executes the specified command and sends the output.
-- Reverse Shell (`-sh`) - reverse shell available to connected clients.
-
-And a port number with `-p`.
+- A port number with `-p`.
 
 ### Client mode
 
